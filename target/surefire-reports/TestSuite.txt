@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 13, Time elapsed: 110.049 sec <<< FAILURE! - in TestSuite
+startUp(com.box.tests.SignUp)  Time elapsed: 61.6 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: com.salesforce.chatter/.Chatter never started. Current: com.box.android/.activities.login.WelcomeTourActivity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.11 seconds
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'EMACBOOK-34', ip: '172.16.21.30', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.box.tests.SignUp.startUp(SignUp.java:60)
+
+startUp(com.box.tests.AddItems)  Time elapsed: 46.503 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: com.salesforce.chatter/.Chatter never started. Current: com.box.android/.activities.login.WelcomeTourActivity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46.29 seconds
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'EMACBOOK-34', ip: '172.16.21.30', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.box.tests.AddItems.startUp(AddItems.java:56)
+

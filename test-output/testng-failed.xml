@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Login Test script(failed)" parallel="none">
+    <classes>
+      <class name="com.box.tests.AddItems">
+        <methods>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.AddItems -->
+      <class name="com.box.tests.SignUp">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.SignUp -->
+      <class name="com.box.tests.LoginLogout">
+        <methods>
+          <include name="startUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.box.tests.LoginLogout -->
+    </classes>
+  </test> <!-- Login Test script(failed) -->
+</suite> <!-- Failed suite [Suite] -->

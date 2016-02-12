@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test script for project execution start time">
+    <classes>
+      <class name="com.box.model.StartExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution start time -->
+  <test name="Sign Up Test script">
+    <classes>
+      <class name="com.box.tests.SignUp"/>
+    </classes>
+  </test> <!-- Sign Up Test script -->
+  <test name="Login Test script">
+    <classes>
+      <class name="com.box.tests.LoginLogout"/>
+    </classes>
+  </test> <!-- Login Test script -->
+  <test name="Add New Photo Test script">
+    <classes>
+      <class name="com.box.tests.AddItems"/>
+    </classes>
+  </test> <!-- Add New Photo Test script -->
+  <test name="Test script for project execution end time">
+    <classes>
+      <class name="com.box.model.EndExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution end time -->
+  <test name="Sign Up Test script(failed)" parallel="none">
+    <classes>
+      <class name="com.box.tests.LoginLogout">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.LoginLogout -->
+      <class name="com.box.tests.SignUp">
+        <methods>
+          <include name="registration"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.SignUp -->
+      <class name="com.box.tests.AddItems">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.AddItems -->
+    </classes>
+  </test> <!-- Sign Up Test script(failed) -->
+  <test name="Login Test script(failed)" parallel="none">
+    <classes>
+      <class name="com.box.tests.LoginLogout">
+        <methods>
+          <include name="startUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.box.tests.LoginLogout -->
+      <class name="com.box.tests.SignUp">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.SignUp -->
+      <class name="com.box.tests.AddItems">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.AddItems -->
+    </classes>
+  </test> <!-- Login Test script(failed) -->
+  <test name="Add New Photo Test script(failed)" parallel="none">
+    <classes>
+      <class name="com.box.tests.LoginLogout">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.LoginLogout -->
+      <class name="com.box.tests.SignUp">
+        <methods>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.box.tests.SignUp -->
+      <class name="com.box.tests.AddItems">
+        <methods>
+          <include name="startUp"/>
+          <include name="addingItems"/>
+        </methods>
+      </class> <!-- com.box.tests.AddItems -->
+    </classes>
+  </test> <!-- Add New Photo Test script(failed) -->
+</suite> <!-- Failed suite [Suite] -->

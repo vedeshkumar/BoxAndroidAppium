@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+
+	<test name="Test script for project execution start time">
+		<classes>
+			<class name="com.box.model.StartExecution" />
+		</classes>
+	</test>
+	
+	<test name="Sign Up Test script">
+		<classes>
+			<class name="com.box.tests.SignUp"/>
+		</classes>
+	</test>
+		
+	<test name="Login Test script">
+		<classes>
+			<class name="com.box.tests.LoginLogout"/>
+		</classes>
+	</test>
+	
+	<test name="Add New Photo Test script">
+		<classes>
+			<class name="com.box.tests.AddItems"/>
+		</classes>
+	</test>
+	
+	<test name="Test script for project execution end time">
+		<classes>
+			<class name="com.box.model.EndExecution" />
+		</classes>
+	</test>
+
+</suite>

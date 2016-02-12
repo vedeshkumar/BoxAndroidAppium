@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="110.049" tests="17" errors="0" skipped="13" failures="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Box_Appium"/>
+    <property name="PWD" value="/Users/vedesh.kumar/Documents/Jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/vedesh.kumar/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/vedesh.kumar/.linuxbrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Volumes/Data/AndroidSdk/android-sdks/tools/:/Volumes/Data/AndroidSdk/android-sdks/platform-tools/:/Volumes/Data/AndroidSdk/android-sdks/build-tools/:/Volumes/Data/apache-ant-1.9.6/bin:/usr/local/Cellar/maven/3.3.3/libexec/bin:/usr/local/lib/node_modules/:/Users/vedesh.kumar/.rvm/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4d4b2d71d31dc7f7"/>
+    <property name="POM_ARTIFACTID" value="Box_Appium"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="JAVA_MAIN_CLASS_4474" value="Main"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="TERM_SESSION_ID" value="5AF89339-5ACB-4CC9-94B8-8B61B733F4F0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Box_Appium"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_40-b25"/>
+    <property name="ANT_HOME" value="/Volumes/Data/apache-ant-1.9.6"/>
+    <property name="rvm_version" value="1.26.11 (latest)"/>
+    <property name="user.name" value="vedesh.kumar"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="NODE_PATH" value="/usr/local/lib/node_modules/"/>
+    <property name="user.language" value="en"/>
+    <property name="INFOPATH" value="/Users/vedesh.kumar/.linuxbrew/share/info:"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="TMPDIR" value="/var/folders/89/m4fn2y8j4td2q4p4bjnxr4ys16hjtm/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
+    <property name="rvm_prefix" value="/Users/vedesh.kumar"/>
+    <property name="DISPLAY" value="/private/tmp/com.apple.launchd.q3a8zm0D3f/org.macosforge.xquartz:0"/>
+    <property name="java.version" value="1.8.0_40"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.40-b25"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="vedesh.kumar"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/Users/vedesh.kumar"/>
+    <property name="POM_GROUPID" value="com.box"/>
+    <property name="user.home" value="/Users/vedesh.kumar"/>
+    <property name="BUILD_TAG" value="jenkins-Box_Appium-8"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4d4b2d71d31dc7f7"/>
+    <property name="HUDSON_URL" value="http://172.16.21.30:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/vedesh.kumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="_system_arch" value="x86_64"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.ic0U0yIViq/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="_system_version" value="10.10"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="java.class.path" value="/Users/vedesh.kumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar:/usr/local/Cellar/maven/3.3.3/libexec/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/Cellar/maven/3.3.3/libexec /Users/vedesh.kumar/.jenkins/war/WEB-INF/lib/remoting-2.53.2.jar /Users/vedesh.kumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/vedesh.kumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 49214"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="java.io.tmpdir" value="/var/folders/89/m4fn2y8j4td2q4p4bjnxr4ys16hjtm/T/"/>
+    <property name="HUDSON_HOME" value="/Users/vedesh.kumar/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/Cellar/maven/3.3.3/libexec/bin"/>
+    <property name="BUILD_URL" value="http://172.16.21.30:8080/job/Box_Appium/8/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/vedesh.kumar"/>
+    <property name="MANPATH" value="/Users/vedesh.kumar/.linuxbrew/share/man:"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.esXe0KrPBR/Listeners"/>
+    <property name="rvm_path" value="/Users/vedesh.kumar/.rvm"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="rvm_bin_path" value="/Users/vedesh.kumar/.rvm/bin"/>
+    <property name="_system_type" value="Darwin"/>
+    <property name="java.ext.dirs" value="/Users/vedesh.kumar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x42684754:0x0:0x0"/>
+    <property name="user.dir" value="/Users/vedesh.kumar/Documents/Davincian_Workspace/Box_Appium"/>
+    <property name="JOB_URL" value="http://172.16.21.30:8080/job/Box_Appium/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="8"/>
+    <property name="ANDROID_HOME" value="/Volumes/Data/AndroidSdk/android-sdks"/>
+    <property name="JENKINS_URL" value="http://172.16.21.30:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="343.7"/>
+    <property name="_system_name" value="OSX"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/vedesh.kumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="/Users/vedesh.kumar/.jenkins/jobs/Box_Appium/workspace"/>
+    <property name="maven3.interceptor.common" value="/Users/vedesh.kumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="vedesh.kumar"/>
+  </properties>
+  <testcase name="startTime" classname="com.box.model.StartExecution" time="0.156"/>
+  <testcase name="startUp" classname="com.box.tests.SignUp" time="61.6">
+    <failure message="A new session could not be created. (Original error: com.salesforce.chatter/.Chatter never started. Current: com.box.android/.activities.login.WelcomeTourActivity) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 60.11 seconds&#10;Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;&#10;System info: host: &apos;EMACBOOK-34&apos;, ip: &apos;172.16.21.30&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_40&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: com.salesforce.chatter/.Chatter never started. Current: com.box.android/.activities.login.WelcomeTourActivity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.11 seconds
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'EMACBOOK-34', ip: '172.16.21.30', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.box.tests.SignUp.startUp(SignUp.java:60)
+</failure>
+    <system-out><![CDATA[Yes
+]]></system-out>
+    <system-err><![CDATA[Warning:  Property storage name for 5 is empty - setting to Root Entry
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+  </testcase>
+  <testcase name="beforeTest" classname="com.box.tests.SignUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="registration" classname="com.box.tests.SignUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.box.tests.SignUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.box.tests.SignUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startUp" classname="com.box.tests.LoginLogout" time="0">
+    <skipped/>
+    <system-out><![CDATA[No
+LoginLogout execution is skipped
+]]></system-out>
+    <system-err><![CDATA[Warning:  Property storage name for 5 is empty - setting to Root Entry
+]]></system-err>
+  </testcase>
+  <testcase name="beforeTest" classname="com.box.tests.LoginLogout" time="0">
+    <skipped/>
+    <system-err><![CDATA[Warning:  Property storage name for 5 is empty - setting to Root Entry
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.box.tests.LoginLogout" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.box.tests.LoginLogout" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.box.tests.LoginLogout" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startUp" classname="com.box.tests.AddItems" time="46.503">
+    <failure message="A new session could not be created. (Original error: com.salesforce.chatter/.Chatter never started. Current: com.box.android/.activities.login.WelcomeTourActivity) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 46.29 seconds&#10;Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;&#10;System info: host: &apos;EMACBOOK-34&apos;, ip: &apos;172.16.21.30&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_40&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+A new session could not be created. (Original error: com.salesforce.chatter/.Chatter never started. Current: com.box.android/.activities.login.WelcomeTourActivity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46.29 seconds
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'EMACBOOK-34', ip: '172.16.21.30', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.box.tests.AddItems.startUp(AddItems.java:56)
+</failure>
+    <system-out><![CDATA[Yes
+]]></system-out>
+    <system-err><![CDATA[Warning:  Property storage name for 5 is empty - setting to Root Entry
+]]></system-err>
+  </testcase>
+  <testcase name="beforeTest" classname="com.box.tests.AddItems" time="0">
+    <skipped/>
+    <system-err><![CDATA[Warning:  Property storage name for 5 is empty - setting to Root Entry
+]]></system-err>
+  </testcase>
+  <testcase name="addingItems" classname="com.box.tests.AddItems" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.box.tests.AddItems" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.box.tests.AddItems" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="endTime" classname="com.box.model.EndExecution" time="0"/>
+</testsuite>

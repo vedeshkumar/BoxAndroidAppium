@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109234" started-at="2016-02-11T12:11:17Z" finished-at="2016-02-11T12:13:06Z">
+    <groups>
+    </groups>
+    <test name="Test script for project execution start time" duration-ms="158" started-at="2016-02-11T12:11:17Z" finished-at="2016-02-11T12:11:17Z">
+      <class name="com.box.model.StartExecution">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.box.model.StartExecution@57829d67]" name="startTime" duration-ms="138" started-at="2016-02-11T17:41:17Z" finished-at="2016-02-11T17:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+      </class> <!-- com.box.model.StartExecution -->
+    </test> <!-- Test script for project execution start time -->
+    <test name="Sign Up Test script" duration-ms="22127" started-at="2016-02-11T12:11:17Z" finished-at="2016-02-11T12:11:39Z">
+      <class name="com.box.tests.SignUp">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.box.tests.SignUp@2d554825]" name="startUp" is-config="true" duration-ms="19128" started-at="2016-02-11T17:41:17Z" finished-at="2016-02-11T17:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.box.tests.SignUp@2d554825]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-02-11T17:41:36Z" finished-at="2016-02-11T17:41:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.box.tests.SignUp.registration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.box.tests.SignUp@2d554825]" name="registration" duration-ms="1834" started-at="2016-02-11T17:41:36Z" finished-at="2016-02-11T17:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.box.tests.SignUp@2d554825]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-02-11T17:41:38Z" finished-at="2016-02-11T17:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.box.tests.SignUp@2d554825]" name="tearDown" is-config="true" duration-ms="1160" started-at="2016-02-11T17:41:38Z" finished-at="2016-02-11T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.box.tests.SignUp -->
+    </test> <!-- Sign Up Test script -->
+    <test name="Login Test script" duration-ms="191" started-at="2016-02-11T12:11:39Z" finished-at="2016-02-11T12:11:39Z">
+      <class name="com.box.tests.LoginLogout">
+        <test-method status="SKIP" signature="startUp()[pri:0, instance:com.box.tests.LoginLogout@4909b8da]" name="startUp" is-config="true" duration-ms="0" started-at="2016-02-11T17:41:39Z" finished-at="2016-02-11T17:41:39Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[LoginLogout execution is skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: LoginLogout execution is skipped
+	at com.box.tests.LoginLogout.startUp(LoginLogout.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="SKIP" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.box.tests.LoginLogout@4909b8da]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-02-11T17:41:39Z" finished-at="2016-02-11T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.box.tests.LoginLogout@4909b8da]" name="loginTest" duration-ms="0" started-at="2016-02-11T17:41:39Z" data-provider="validLogin" finished-at="2016-02-11T17:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kmvedeshkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iam@PRASAD05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.box.tests.LoginLogout@4909b8da]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-02-11T17:41:39Z" finished-at="2016-02-11T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.box.tests.LoginLogout@4909b8da]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-02-11T17:41:39Z" finished-at="2016-02-11T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.box.tests.LoginLogout -->
+    </test> <!-- Login Test script -->
+    <test name="Add New Photo Test script" duration-ms="86191" started-at="2016-02-11T12:11:39Z" finished-at="2016-02-11T12:13:06Z">
+      <class name="com.box.tests.AddItems">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.box.tests.AddItems@6df97b55]" name="startUp" is-config="true" duration-ms="16218" started-at="2016-02-11T17:41:39Z" finished-at="2016-02-11T17:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.box.tests.AddItems@6df97b55]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-02-11T17:41:56Z" finished-at="2016-02-11T17:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.box.tests.AddItems.addingItems(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addingItems(java.lang.String, java.lang.String)[pri:0, instance:com.box.tests.AddItems@6df97b55]" name="addingItems" duration-ms="68799" started-at="2016-02-11T17:41:56Z" data-provider="validLogin" finished-at="2016-02-11T17:43:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kmvedeshkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iam@PRASAD05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingItems -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.box.tests.AddItems@6df97b55]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-02-11T17:43:05Z" finished-at="2016-02-11T17:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.box.tests.AddItems@6df97b55]" name="tearDown" is-config="true" duration-ms="1095" started-at="2016-02-11T17:43:05Z" finished-at="2016-02-11T17:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.box.tests.AddItems -->
+    </test> <!-- Add New Photo Test script -->
+    <test name="Test script for project execution end time" duration-ms="116" started-at="2016-02-11T12:13:06Z" finished-at="2016-02-11T12:13:06Z">
+      <class name="com.box.model.EndExecution">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.box.model.EndExecution@531be3c5]" name="endTime" duration-ms="115" started-at="2016-02-11T17:43:06Z" finished-at="2016-02-11T17:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+      </class> <!-- com.box.model.EndExecution -->
+    </test> <!-- Test script for project execution end time -->
+  </suite> <!-- Suite -->
+</testng-results>
